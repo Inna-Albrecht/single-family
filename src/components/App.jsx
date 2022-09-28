@@ -1,6 +1,8 @@
+import Hero from './containers/Hero'
+
 function App () {
   return (
-    <div className='App' />
+    <Hero />
   )
 }
 
