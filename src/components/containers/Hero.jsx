@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <main className='bg-dark text-white'>
+    <main className='hero bg-dark text-white'>
       <header className='container py-4'>
         <div className='d-flex justify-content-between align-items-center'>
           <h1 className='m-0'>Logo</h1>
@@ -9,13 +9,15 @@ const Hero = () => {
       </header>
       <article className='container text-center py-5'>
         <h2 className='fs-1'>We Buy ANY Condition Houses.</h2>
-        <h2 className='fs-1'>Tell Us About Your Property – Quick, Easy & Free!</h2>
+        <h2 className='fs-1'>
+          Tell Us About Your Property – Quick, Easy & Free!
+        </h2>
         <p className=''>
           We'll Buy Your House Regardless of Condition, Age, Size Or Reason For
-          Selling! AVOID Foreclosure. No Realtor Fees or Closing Costs! Sell
-          Your Home 'As Is' - Close Quickly (7-30 Days). No Waiting. We'll Make
-          You An Offer Now.
+          Selling! AVOID <br /> Foreclosure. No Realtor Fees or Closing Costs! Sell
+          Your Home 'As Is' - Close Quickly (7-30 Days).
         </p>
+        <p> No Waiting. We'll Make You An Offer Now.</p>
         <p>
           <strong>*NOTE: </strong>
           You must be the current property owner or inheriting it. We do not buy
