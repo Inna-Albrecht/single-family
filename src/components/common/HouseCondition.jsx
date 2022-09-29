@@ -1,11 +1,11 @@
 export default function HouseCondition () {
   return (
     <section className='container py-5 text-center'>
-      <h2 className='fs-1'>What Is Your House Condition?</h2>
+      <h2 className='fs-1 fw-bold'>What Is Your House Condition?</h2>
       <div className='row py-5'>
         <article className='col-12 col-md-4 d-inline-flex flex-column justify-content-between'>
           <div className='divider'>
-            <button className='btn btn-success btn-lg rounded-pill'>
+            <button className='btn btn-success btn-lg rounded-pill fw-bold px-5 py-3'>
               Good Condition
             </button>
             <figure className='mt-3'>
@@ -18,12 +18,12 @@ export default function HouseCondition () {
             </ul>
           </div>
           <div>
-            <button className='btn btn-success rounded-pill'>Select</button>
+            <button className='btn btn-success rounded-pill fw-bold px-5 py-2'>Select</button>
           </div>
         </article>
         <article className='col-12 col-md-4 d-inline-flex flex-column justify-content-between'>
           <div className='divider'>
-            <button className='btn btn-success btn-lg rounded-pill'>
+            <button className='btn btn-success btn-lg rounded-pill fw-bold px-5 py-3'>
               Medium Condition
             </button>
             <figure className='mt-3'>
@@ -38,12 +38,12 @@ export default function HouseCondition () {
             </ul>
           </div>
           <div>
-            <button className='btn btn-success rounded-pill'>Select</button>
+            <button className='btn btn-success rounded-pill fw-bold px-5 py-2'>Select</button>
           </div>
         </article>
         <article className='col-12 col-md-4 d-inline-flex flex-column justify-content-between'>
           <div className='divider'>
-            <button className='btn btn-success btn-lg rounded-pill'>
+            <button className='btn btn-success btn-lg rounded-pill fw-bold px-5 py-3'>
               Bad Condition
             </button>
             <figure className='mt-3'>
@@ -56,12 +56,12 @@ export default function HouseCondition () {
             </ul>
           </div>
           <div>
-            <button className='btn btn-success rounded-pill'>Select</button>
+            <button className='btn btn-success rounded-pill fw-bold px-5 py-2'>Select</button>
           </div>
         </article>
       </div>
-      <p>Don't you know your House Condition?</p>
-      <button className='btn btn-dark btn-lg rounded-pill fs-1'>
+      <p className='fs-4'>Don't you know your House Condition?</p>
+      <button className='btn btn-dark btn-lg btn-lg-mod fs-1 fw-bold'>
         Call Now
       </button>
     </section>

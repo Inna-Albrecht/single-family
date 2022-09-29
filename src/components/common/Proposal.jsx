@@ -1,7 +1,7 @@
 export default function Proposal () {
   return (
-    <section className='container text-center py-4'>
-      <h2 className='fs-1'>
+    <section className='container text-center py-5'>
+      <h2 className='fs-1 fw-bold'>
         We Buy Houses in ANY Condition. And We Can <br /> Close In LESS Than
         7-30 Days From Today
       </h2>

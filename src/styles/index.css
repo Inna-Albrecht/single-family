@@ -1,0 +1,50 @@
+/* modify bs */
+.btn-success {
+  --bs-btn-bg: #259268;
+  --bs-btn-border-color: #259268;
+  --bs-btn-hover-bg: #1CAD8E;
+  --bs-btn-hover-border-color: #1CAD8E;
+  --bs-btn-active-bg: #1CAD8E;
+  --bs-btn-active-border-color: #1CAD8E;
+  --bs-btn-disabled-bg: #259268;
+  --bs-btn-disabled-border-color: #259268;
+}
+
+/* general styles */
+
+ul{
+  list-style-type: "-";
+  padding-inline-start: 1rem;
+}
+.call-now {
+  background: transparent;
+  border: 0;
+  color: #55a447;
+}
+.apply-bg {
+  position: relative;
+  z-index: 0;
+  background: url("./assets/picBg.jpg") no-repeat center/cover;
+}
+.apply-bg::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: -1;
+}
+.btn-lg-mod{
+  padding-left: 7rem;
+  padding-right: 7rem;
+  border-radius: 26px;
+}
+.btn-md-mod{
+  padding: 1rem 4.5rem;
+  border-radius: 26px;
+}
+footer{
+  background: #4E9F44;
+}
