@@ -24,7 +24,7 @@ ul {
 .apply-bg {
   position: relative;
   z-index: 0;
-  background: url("./assets/picBg.jpg") no-repeat center/cover;
+  background: url("/assets/picBg.jpg") no-repeat center/cover;
 }
 .apply-bg::before {
   content: "";
