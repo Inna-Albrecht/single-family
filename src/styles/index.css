@@ -10,6 +10,35 @@
   --bs-btn-disabled-border-color: #259268;
 }
 
+.hero-header {
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .hero-header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .logo-single {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  br {
+    display: none;
+  }
+  .logo-single {
+    width: 95%;
+  }
+  footer > nav {
+    flex-direction: column;
+  }
+  footer > .gap-5 {
+    gap: 1rem !important;
+  }
+}
+
 /* general styles */
 
 ul {
@@ -52,4 +81,10 @@ ul {
 }
 footer {
   background: #4e9f44;
+}
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-content: center;
 }

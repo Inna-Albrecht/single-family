@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <main className='hero apply-bg apply-bg-1 text-white'>
       <header className='container py-4'>
-        <div className='d-flex justify-content-between align-items-center'>
+        <div className='d-flex align-items-center hero-header'>
           <h1 className='m-0'>
             <img width={320} src='./assets/logo.png' alt='' />
           </h1>
@@ -28,7 +28,7 @@ const Hero = () => {
           You must be the current property owner or inheriting it. We do not buy
           homes under contract or from wholesalers
         </p>
-        <div className='d-flex justify-content-center gap-5 pt-4'>
+        <div className='d-flex flex-wrap justify-content-center gap-5 pt-4'>
           <button className='btn btn-success btn-lg rounded-pill fw-bold px-5 py-3'>
             Get a Cash Offer
           </button>

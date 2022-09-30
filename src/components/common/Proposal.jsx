@@ -5,7 +5,7 @@ export default function Proposal () {
         We Buy Houses in ANY Condition. And We Can <br /> Close In LESS Than
         7-30 Days From Today
       </h2>
-      <section className='row pt-5'>
+      <section className='row gy-4 gy-md-0 pt-5'>
         <aside className='col-12 col-md-4'>
           <figure>
             <img
@@ -35,7 +35,7 @@ export default function Proposal () {
         </aside>
       </section>
       <article>
-        <p>
+        <p className='mt-3'>
           Would you like a no-obligation cash offer? Do you need to get out of
           that house Right Now?
         </p>

@@ -7,7 +7,7 @@ export default function TrustAndChoose () {
       <div className='row align-items-center py-5'>
         <aside className='col-12 col-md-7'>
           <div className='row gy-4'>
-            <article className='col-6'>
+            <article className='col-12 col-md-6'>
               <figure>
                 <img width={80} src='./assets/check.png' alt='' />
               </figure>
@@ -18,7 +18,7 @@ export default function TrustAndChoose () {
                 virtually!
               </p>
             </article>
-            <article className='col-6'>
+            <article className='col-12 col-md-6'>
               <figure>
                 <img width={80} src='./assets/check.png' alt='' />
               </figure>
@@ -28,7 +28,7 @@ export default function TrustAndChoose () {
                 money when you work with us. We pay our customers in cash.
               </p>
             </article>
-            <article className='col-6'>
+            <article className='col-12 col-md-6'>
               <figure>
                 <img width={80} src='./assets/check.png' alt='' />
               </figure>
@@ -38,7 +38,7 @@ export default function TrustAndChoose () {
                 money when you work with us. We pay our customers in cash.
               </p>
             </article>
-            <article className='col-6'>
+            <article className='col-12 col-md-6'>
               <figure>
                 <img width={80} src='./assets/check.png' alt='' />
               </figure>

@@ -2,13 +2,13 @@ export default function HouseCondition () {
   return (
     <section className='container py-5 text-center'>
       <h2 className='fs-1 fw-bold'>What Is Your House Condition?</h2>
-      <div className='row py-5'>
+      <div className='row gy-5 gy-md-0 py-5'>
         <article className='col-12 col-md-4 d-inline-flex flex-column justify-content-between'>
           <div className='divider'>
             <button className='btn btn-success btn-lg rounded-pill fw-bold px-5 py-3'>
               Good Condition
             </button>
-            <figure className='mt-3'>
+            <figure className='mt-4'>
               <img className='img-fluid' src='./assets/pic1.jpg' alt='' />
             </figure>
             <ul className='text-start'>
@@ -26,7 +26,7 @@ export default function HouseCondition () {
             <button className='btn btn-success btn-lg rounded-pill fw-bold px-5 py-3'>
               Medium Condition
             </button>
-            <figure className='mt-3'>
+            <figure className='mt-4'>
               <img className='img-fluid' src='./assets/pic5.jpg' alt='' />
             </figure>
             <ul className='text-start'>
@@ -46,7 +46,7 @@ export default function HouseCondition () {
             <button className='btn btn-success btn-lg rounded-pill fw-bold px-5 py-3'>
               Bad Condition
             </button>
-            <figure className='mt-3'>
+            <figure className='mt-4'>
               <img className='img-fluid' src='./assets/pic6.jpg' alt='' />
             </figure>
             <ul className='text-start'>
