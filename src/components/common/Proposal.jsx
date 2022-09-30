@@ -10,7 +10,7 @@ export default function Proposal () {
           <figure>
             <img
               className='img-fluid'
-              src='./assets/pic1.jpg'
+              src='./assets/webp/pic1.webp'
               alt='demo name'
             />
           </figure>
@@ -19,7 +19,7 @@ export default function Proposal () {
           <figure>
             <img
               className='img-fluid'
-              src='./assets/pic2.jpg'
+              src='./assets/webp/pic2.webp'
               alt='demo name'
             />
           </figure>
@@ -28,7 +28,7 @@ export default function Proposal () {
           <figure>
             <img
               className='img-fluid'
-              src='./assets/pic3.jpg'
+              src='./assets/webp/pic3.webp'
               alt='demo name'
             />
           </figure>

@@ -9,7 +9,7 @@ export default function TrustAndChoose () {
           <div className='row gy-4'>
             <article className='col-12 col-md-6'>
               <figure>
-                <img width={80} src='./assets/check.png' alt='' />
+                <img width={80} src='./assets/webp/check.webp' alt='' />
               </figure>
               <h5 className='fw-bold'>The First Offer’s the Best</h5>
               <p className='px-3'>
@@ -20,7 +20,7 @@ export default function TrustAndChoose () {
             </article>
             <article className='col-12 col-md-6'>
               <figure>
-                <img width={80} src='./assets/check.png' alt='' />
+                <img width={80} src='./assets/webp/check.webp' alt='' />
               </figure>
               <h5 className='fw-bold'>We Pay in Cold, Hard Cash</h5>
               <p className='px-3'>
@@ -30,7 +30,7 @@ export default function TrustAndChoose () {
             </article>
             <article className='col-12 col-md-6'>
               <figure>
-                <img width={80} src='./assets/check.png' alt='' />
+                <img width={80} src='./assets/webp/check.webp' alt='' />
               </figure>
               <h5 className='fw-bold'>We Pay in Cold, Hard Cash</h5>
               <p className='px-3'>
@@ -40,7 +40,7 @@ export default function TrustAndChoose () {
             </article>
             <article className='col-12 col-md-6'>
               <figure>
-                <img width={80} src='./assets/check.png' alt='' />
+                <img width={80} src='./assets/webp/check.webp' alt='' />
               </figure>
               <h5 className='fw-bold'>We Pay in Cold, Hard Cash</h5>
               <p className='px-3'>
@@ -52,7 +52,7 @@ export default function TrustAndChoose () {
         </aside>
         <aside className='col-12 col-md-5'>
           <figure>
-            <img className='img-fluid' src='./assets/picOld.jpg' alt='' />
+            <img className='img-fluid' src='./assets/webp/picOld.webp' alt='' />
           </figure>
         </aside>
       </div>

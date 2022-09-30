@@ -9,7 +9,7 @@ export default function HouseCondition () {
               Good Condition
             </button>
             <figure className='mt-4'>
-              <img className='img-fluid' src='./assets/pic1.jpg' alt='' />
+              <img className='img-fluid' src='./assets/webp/pic1.webp' alt='' />
             </figure>
             <ul className='text-start'>
               <li>Total floor area enlarges more than 30%</li>
@@ -27,7 +27,7 @@ export default function HouseCondition () {
               Medium Condition
             </button>
             <figure className='mt-4'>
-              <img className='img-fluid' src='./assets/pic5.jpg' alt='' />
+              <img className='img-fluid' src='./assets/webp/pic5.webp' alt='' />
             </figure>
             <ul className='text-start'>
               <li>
@@ -47,7 +47,7 @@ export default function HouseCondition () {
               Bad Condition
             </button>
             <figure className='mt-4'>
-              <img className='img-fluid' src='./assets/pic6.jpg' alt='' />
+              <img className='img-fluid' src='./assets/webp/pic6.webp' alt='' />
             </figure>
             <ul className='text-start'>
               <li>Total floor area shrinks more than 9%</li>

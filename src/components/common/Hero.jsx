@@ -4,10 +4,10 @@ const Hero = () => {
       <header className='container py-4'>
         <div className='d-flex align-items-center hero-header'>
           <h1 className='m-0'>
-            <img width={320} src='./assets/logo.png' alt='' />
+            <img width={320} src='./assets/webp/logo.webp' alt='' />
           </h1>
           <button className='call-now fw-bold'>
-            <img className='me-3' width={40} src='./assets/phone.png' alt='' />
+            <img className='me-3' width={40} src='./assets/webp/phone.webp' alt='' />
             Call Now For a Cash Offer
           </button>
         </div>
