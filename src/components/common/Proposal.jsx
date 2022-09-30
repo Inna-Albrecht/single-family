@@ -9,6 +9,7 @@ export default function Proposal () {
         <aside className='col-12 col-md-4'>
           <figure>
             <img
+              loading='lazy'
               className='img-fluid'
               src='./assets/webp/pic1.webp'
               alt='demo name'
@@ -18,6 +19,7 @@ export default function Proposal () {
         <aside className='col-12 col-md-4'>
           <figure>
             <img
+              loading='lazy'
               className='img-fluid'
               src='./assets/webp/pic2.webp'
               alt='demo name'
@@ -27,6 +29,7 @@ export default function Proposal () {
         <aside className='col-12 col-md-4'>
           <figure>
             <img
+              loading='lazy'
               className='img-fluid'
               src='./assets/webp/pic3.webp'
               alt='demo name'
