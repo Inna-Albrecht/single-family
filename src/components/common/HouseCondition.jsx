@@ -5,9 +5,9 @@ export default function HouseCondition () {
       <div className='row gy-5 gy-md-0 py-5'>
         <article className='col-12 col-md-4 d-inline-flex flex-column justify-content-between'>
           <div className='divider'>
-            <button className='btn btn-success btn-lg rounded-pill fw-bold px-5 py-3'>
+            <p className='d-inline-block text-white bg-success btn-lg rounded-pill fw-bold px-5 py-3'>
               Good Condition
-            </button>
+            </p>
             <figure className='mt-4'>
               <img loading='lazy' className='img-fluid' src='./assets/webp/pic1.webp' alt='' />
             </figure>
@@ -23,9 +23,9 @@ export default function HouseCondition () {
         </article>
         <article className='col-12 col-md-4 d-inline-flex flex-column justify-content-between'>
           <div className='divider'>
-            <button className='btn btn-success btn-lg rounded-pill fw-bold px-5 py-3'>
+            <p className='d-inline-block text-white bg-success btn-lg rounded-pill fw-bold px-5 py-3'>
               Medium Condition
-            </button>
+            </p>
             <figure className='mt-4'>
               <img loading='lazy' className='img-fluid' src='./assets/webp/pic5.webp' alt='' />
             </figure>
@@ -43,9 +43,9 @@ export default function HouseCondition () {
         </article>
         <article className='col-12 col-md-4 d-inline-flex flex-column justify-content-between'>
           <div className='divider'>
-            <button className='btn btn-success btn-lg rounded-pill fw-bold px-5 py-3'>
+            <p className='d-inline-block text-white bg-success btn-lg rounded-pill fw-bold px-5 py-3'>
               Bad Condition
-            </button>
+            </p>
             <figure className='mt-4'>
               <img loading='lazy' className='img-fluid' src='./assets/webp/pic6.webp' alt='' />
             </figure>

@@ -6,6 +6,7 @@ import TrustAndChoose from './common/TrustAndChoose'
 import GetCash from './common/GetCash'
 import Logo from './common/Logo'
 import Footer from './common/Footer'
+import Form from './common/Form'
 
 function App () {
   return (
@@ -17,6 +18,7 @@ function App () {
       <TrustAndChoose />
       <GetCash />
       <Logo />
+      <Form />
       <Footer />
     </>
   )
