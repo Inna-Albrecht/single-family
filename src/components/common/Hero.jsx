@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <main className='hero apply-bg text-white'>
+    <main className='hero apply-bg apply-bg-1 text-white'>
       <header className='container py-4'>
         <div className='d-flex justify-content-between align-items-center'>
           <h1 className='m-0'>

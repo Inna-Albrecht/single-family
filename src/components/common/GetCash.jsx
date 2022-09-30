@@ -1,6 +1,6 @@
 export default function GetCash () {
   return (
-    <section className='apply-bg text-white text-center py-5'>
+    <section className='apply-bg apply-bg-2 text-white text-center py-5'>
       <div className='container py-5'>
         <h2 className='fs-1 fw-bold'>
           Are You Ready To Get <br /> Cash For Your Home?
