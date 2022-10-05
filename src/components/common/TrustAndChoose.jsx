@@ -1,3 +1,5 @@
+import scrollToBottom from "./ScrollToBottom"
+
 export default function TrustAndChoose () {
   return (
     <section className='container text-center py-5'>
@@ -22,30 +24,27 @@ export default function TrustAndChoose () {
               <figure>
                 <img loading='lazy' width={80} src='./assets/webp/check.webp' alt='' />
               </figure>
-              <h5 className='fw-bold'>We Pay in Cold, Hard Cash</h5>
+              <h5 className='fw-bold'>We Pay All Cash, As-Is</h5>
               <p className='px-3'>
-                You don’t have to go through long bank lines just to get your
-                money when you work with us. We pay our customers in cash.
+               No banks, no inspections, no contingencies.
               </p>
             </article>
             <article className='col-12 col-md-6'>
               <figure>
                 <img loading='lazy' width={80} src='./assets/webp/check.webp' alt='' />
               </figure>
-              <h5 className='fw-bold'>We Pay in Cold, Hard Cash</h5>
+              <h5 className='fw-bold'>Experience</h5>
               <p className='px-3'>
-                You don’t have to go through long bank lines just to get your
-                money when you work with us. We pay our customers in cash.
+               We've helped so many families by this point that we've lost count. Join our success stories!
               </p>
             </article>
             <article className='col-12 col-md-6'>
               <figure>
                 <img loading='lazy' width={80} src='./assets/webp/check.webp' alt='' />
               </figure>
-              <h5 className='fw-bold'>We Pay in Cold, Hard Cash</h5>
+              <h5 className='fw-bold'>Fair Offer, Satisfied Clients</h5>
               <p className='px-3'>
-                You don’t have to go through long bank lines just to get your
-                money when you work with us. We pay our customers in cash.
+                Our analytics and client testimonials show us that we're solving their problems and making them happy!
               </p>
             </article>
           </div>
@@ -56,8 +55,8 @@ export default function TrustAndChoose () {
           </figure>
         </aside>
       </div>
-      <button className='btn btn-success btn-lg btn-md-mod fs-2 fw-bold'>
-        Get a Cash Offer
+      <button className='btn btn-success btn-lg btn-md-mod fs-2 fw-bold' onClick={scrollToBottom}>
+        Get an Offer!
       </button>
     </section>
   )

@@ -1,20 +1,18 @@
 export default function HouseCondition () {
   return (
     <section className='container py-5 text-center'>
-      <h2 className='fs-1 fw-bold'>What Is Your House Condition?</h2>
+      <h2 className='fs-1 fw-bold'>What condition is your house in?</h2>
       <div className='row gy-5 gy-md-0 py-5'>
         <article className='col-12 col-md-4 d-inline-flex flex-column justify-content-between'>
           <div className='divider'>
-            <p className='d-inline-block text-white bg-success btn-lg rounded-pill fw-bold px-5 py-3'>
-              Good Condition
+            <p className='d-inline-block text-white rounded-pill bg-condition btn-lg fw-bold px-5 py-3'>
+              Mint Condition
             </p>
             <figure className='mt-4'>
               <img loading='lazy' className='img-fluid' src='./assets/webp/pic1.webp' alt='' />
             </figure>
             <ul className='text-start'>
-              <li>Total floor area enlarges more than 30%</li>
-              <li>No or less damage in house elements</li>
-              <li>Adequate natural lighting</li>
+             
             </ul>
           </div>
           <div>
@@ -23,18 +21,14 @@ export default function HouseCondition () {
         </article>
         <article className='col-12 col-md-4 d-inline-flex flex-column justify-content-between'>
           <div className='divider'>
-            <p className='d-inline-block text-white bg-success btn-lg rounded-pill fw-bold px-5 py-3'>
-              Medium Condition
+            <p className='d-inline-block text-white rounded-pill bg-condition btn-lg fw-bold px-5 py-3'>
+              Average Condition
             </p>
             <figure className='mt-4'>
               <img loading='lazy' className='img-fluid' src='./assets/webp/pic5.webp' alt='' />
             </figure>
             <ul className='text-start'>
-              <li>
-                Total floor area shrinks between 9% - 0% or enlarges up to 30%
-              </li>
-              <li>Some damages in house elements</li>
-              <li>Minimal insufficient of natural lighting</li>
+              
             </ul>
           </div>
           <div>
@@ -43,16 +37,14 @@ export default function HouseCondition () {
         </article>
         <article className='col-12 col-md-4 d-inline-flex flex-column justify-content-between'>
           <div className='divider'>
-            <p className='d-inline-block text-white bg-success btn-lg rounded-pill fw-bold px-5 py-3'>
-              Bad Condition
+            <p className='d-inline-block text-white bg-condition rounded-pill btn-lg fw-bold px-5 py-3'>
+              Bad Shape
             </p>
             <figure className='mt-4'>
               <img loading='lazy' className='img-fluid' src='./assets/webp/pic6.webp' alt='' />
             </figure>
             <ul className='text-start'>
-              <li>Total floor area shrinks more than 9%</li>
-              <li>Major damages in house elements</li>
-              <li>Insufficient of natural lighting</li>
+             
             </ul>
           </div>
           <div>
@@ -60,10 +52,12 @@ export default function HouseCondition () {
           </div>
         </article>
       </div>
-      <p className='fs-4'>Don't you know your House Condition?</p>
-      <button className='btn btn-dark btn-lg btn-lg-mod fs-1 fw-bold'>
+      <p className='fs-4'>Not sure of your home's condition?</p>
+      <a href="tel:+19727790980">
+      <button className='btn btn-dark btn-lg btn-lg-mod fs-1 fw-bold' href="tel:+19727790980">
         Call Now
       </button>
+      </a>
     </section>
   )
 }

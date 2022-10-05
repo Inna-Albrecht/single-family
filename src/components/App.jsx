@@ -7,18 +7,20 @@ import GetCash from './common/GetCash'
 import Logo from './common/Logo'
 import Footer from './common/Footer'
 import Form from './common/Form'
+import ScrollToTop from './common/ScrollToTop'
 
-function App () {
+function App() {
   return (
     <>
+      <ScrollToTop />
       <Hero />
       <Proposal />
       <CallToAction />
       <HouseCondition />
       <TrustAndChoose />
       <GetCash />
-      <Logo />
       <Form />
+      <Logo />
       <Footer />
     </>
   )

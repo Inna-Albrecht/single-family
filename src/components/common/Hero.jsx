@@ -1,3 +1,4 @@
+import scrollToBottom from "./ScrollToBottom"
 const Hero = () => {
   return (
     <main className='hero apply-bg apply-bg-1 text-white'>
@@ -13,28 +14,29 @@ const Hero = () => {
         </div>
       </header>
       <article className='container text-center py-5'>
-        <h2 className='fs-1 fw-bold'>We Buy ANY Condition Houses.</h2>
+        <h2 className='fs-1 fw-bold'>SELL YOUR HOUSE NOW! <b/> 
+        We buy houses in ANY Condition</h2>
         <h2 className='fs-1 fw-bold'>
-          Tell Us About Your Property – Quick, Easy & Free!
+          Start today - Quick and Easy
         </h2>
         <p className='m-0 mt-4'>
-          We'll Buy Your House Regardless of Condition, Age, Size Or Reason For
-          Selling! AVOID <br /> Foreclosure. No Realtor Fees or Closing Costs!
-          Sell Your Home 'As Is' - Close Quickly (7-30 Days).
+          We want to help homeowners sell their property without the hassle that comes with <br/>
+          showings, repairs, or the uncertainty of the housing market. We want to offer you a better way.
         </p>
-        <p className='mb-4'> No Waiting. We'll Make You An Offer Now.</p>
         <p>
-          <strong>*NOTE: </strong>
+          <strong> 
           You must be the current property owner or inheriting it. We do not buy
-          homes under contract or from wholesalers
+          homes under contract or from wholesalers.</strong>
         </p>
         <div className='d-flex flex-wrap justify-content-center gap-5 pt-4'>
-          <button className='btn btn-success btn-lg rounded-pill fw-bold px-5 py-3'>
+          <button className='btn btn-success btn-lg rounded-pill fw-bold px-5 py-3' onClick={scrollToBottom}>
             Get a Cash Offer
           </button>
+          <a href="tel:+19727790980">
           <button className='btn btn-success btn-lg rounded-pill fw-bold px-5 py-3'>
-            Call Now (999) 999-9999
+            Talk with an Agent
           </button>
+          </a>
         </div>
       </article>
     </main>
